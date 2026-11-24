@@ -1,0 +1,319 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "tripPlanner": "Trip Planner",
+    "about": "About Us"
+  },
+  "footer": {
+    "description": {
+      "line1": "Plan your trips.",
+      "line2": "Discover new places.",
+      "line3": "Create your own routes."
+    },
+    "copyright": "Copyright © 2026. TripMate"
+  },
+  "home": {
+    "hero": {
+      "label": "DISCOVER KAZAKHSTAN",
+      "titleLine1": "Explore the world",
+      "titleLine2": "with",
+      "description": "Discover breathtaking destinations, create unforgettable journeys, and explore Kazakhstan your way.",
+      "planRoute": "Plan the route",
+      "previous": "Previous destination",
+      "next": "Next destination",
+      "regions": {
+        "almatyRegion": "Almaty Region",
+        "mangystauRegion": "Mangystau Region"
+      },
+      "slides": {
+        "1": { "title": "Kolsay Lake" },
+        "2": { "title": "Bozjyra" },
+        "3": { "title": "Charyn Canyon" }
+      }
+    },
+    "popular": {
+      "label": "EXPLORE KAZAKHSTAN",
+      "titleFirst": "Popular",
+      "titleSecond": "Destinations",
+      "description": "Discover the most beautiful places and unforgettable experiences in Kazakhstan.",
+      "viewAll": "View all destinations"
+    },
+    "how": {
+      "label": "YOUR JOURNEY STARTS HERE",
+      "titleFirst": "How",
+      "titleLast": "Works",
+      "description": "Planning your dream adventure has never been easier. Follow three simple steps and start exploring Kazakhstan.",
+      "button": "Start Planning",
+      "steps": {
+        "1": {
+          "title": "Choose Destinations",
+          "description": "Explore beautiful destinations across Kazakhstan and select the places you want to visit."
+        },
+        "2": {
+          "title": "Plan Your Route",
+          "description": "Add your favorite places to your itinerary and organize your perfect travel route."
+        },
+        "3": {
+          "title": "Start Exploring",
+          "description": "Follow your travel plan, discover new experiences and enjoy your unforgettable journey."
+        }
+      }
+    },
+    "travelCategories": {
+      "title": "Travel Categories",
+      "items": {
+        "nature": "Nature",
+        "culture": "History & culture",
+        "cities": "Cities",
+        "adventures": "Adventures"
+      }
+    },
+    "journey": {
+      "titleLine1": "Your journey",
+      "titleLine2": "begins here",
+      "description": "Find amazing places, create routes, and plan unforgettable trips.",
+      "selectDestination": "Select a city or destination",
+      "selectDates": "Select the dates",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "planTrip": "Plan a trip",
+      "errors": {
+        "destinationRequired": "Please select a destination.",
+        "datesRequired": "Please select your travel dates.",
+        "invalidDateRange": "End date cannot be before start date."
+      }
+    }
+  },
+  "destinationsPage": {
+    "hero": {
+      "titleLine1": "Discover new",
+      "titleLine2": "destinations",
+      "description": "Explore the unique places of Kazakhstan — from mountain lakes to historical monuments. Find a destination for your next trip.",
+      "categories": "Nature · Culture · City · Adventures"
+    },
+    "cities": {
+      "names": {
+        "almaty": "Almaty",
+        "astana": "Astana",
+        "aktau": "Aktau",
+        "shymkent": "Shymkent",
+        "turkistan": "Turkistan"
+      },
+      "planRoute": "Plan the route",
+      "selectForRoute": "select for route",
+      "removeFromRoute": "remove from route"
+    },
+    "featured": {
+      "charynDescription": "Unique red cliffs and impressive natural landscapes",
+      "kolsayShortName": "Kolsay",
+      "addRoute": "Add a route +",
+      "addedToRoute": "Added to route"
+    }
+  },
+  "tripPlannerPage": {
+    "hero": {
+      "title": "Plan your trip",
+      "descriptionLine1": "Choose the places, plan the stops by day, and",
+      "descriptionLine2": "create your own route"
+    },
+    "places": {
+      "kolsayShortName": "Kolsay",
+      "yasawiMausoleum": "The Mausoleum of Khoja Ahmed Yasawi",
+      "addRoute": "Add a route +",
+      "addedToRoute": "Added to route"
+    },
+    "myRoute": {
+      "title": "My Route",
+      "selectedCount_one": "{{count}} place selected",
+      "selectedCount_other": "{{count}} places selected",
+      "addMore": "+ Add more places",
+      "emptyTitle": "Your route is empty",
+      "emptyDescription": "Choose your favorite destinations to start planning your trip.",
+      "explore": "Explore destinations",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "remove": "Remove place",
+      "moveUpLabel": "Move {{name}} up",
+      "moveDownLabel": "Move {{name}} down",
+      "removeLabel": "Remove {{name}}"
+    },
+    "form": {
+      "title": "Your journey begins here",
+      "description": "Find amazing places, create routes, and plan unforgettable trips",
+      "routeName": "Route name",
+      "routeNamePlaceholder": "Enter route name",
+      "selectCity": "Select a city",
+      "chooseCity": "Choose a city",
+      "selectDates": "Select the dates",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "travelers": "Number of travelers",
+      "travelersPlaceholder": "Enter number of travelers",
+      "transport": "Transport",
+      "chooseTransport": "Choose transport",
+      "transports": {
+        "car": "Car",
+        "bus": "Bus",
+        "train": "Train",
+        "plane": "Plane"
+      },
+      "save": "Save",
+      "export": "Export",
+      "clear": "Clear",
+      "errors": {
+        "routeNameRequired": "Please enter a route name.",
+        "cityRequired": "Please select a city.",
+        "datesRequired": "Please select your travel dates.",
+        "pastStartDate": "The start date cannot be in the past.",
+        "invalidDateRange": "The end date cannot be before the start date.",
+        "invalidTravelers": "Please enter a valid number of travelers.",
+        "transportRequired": "Please select transport."
+      },
+      "messages": {
+        "saved": "Your trip has been saved successfully!",
+        "exported": "Your trip has been exported!"
+      }
+    },
+    "routeMap": {
+      "title": "Route Map",
+      "description": "Explore your selected destinations on the map",
+      "stopsTitle": "Your Stops",
+      "count_one": "{{count}} destination",
+      "count_other": "{{count}} destinations",
+      "empty": "No destinations selected yet. Add places to see them on the map.",
+      "note": "The dashed line shows the order of your stops, not a road route."
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "titleLine1": "Discover the world",
+      "titleLine2": "Plan with inspiration",
+      "descriptionLine1": "TripMate helps you discover amazing places in",
+      "descriptionLine2": "Kazakhstan and create your own tourist routes",
+      "descriptionLine3": "in a convenient language.",
+      "explore": "Explore the directions",
+      "planTrip": "Plan a trip"
+    },
+    "intro": {
+      "description": "TripMate is a web platform for those who love to travel and discover new places. We strive to combine information about tourist destinations and planning tools in one convenient space. With the help of the website, travelers can explore the sights of Kazakhstan, choose interesting locations, and create routes based on their own preferences."
+    },
+    "why": {
+      "title": "Why TripMate?",
+      "benefits": {
+        "multilanguage": {
+          "title": "Multilanguage",
+          "description": "Kazakh, Russian, English interface"
+        },
+        "individualRoutes": {
+          "title": "Individual routes",
+          "description": "Routes and stops in one place"
+        },
+        "selectedPlaces": {
+          "title": "Selected places",
+          "description": "Save interesting destinations."
+        },
+        "adaptability": {
+          "title": "Adaptability",
+          "description": "Use the website on your computer and phone."
+        }
+      }
+    },
+    "faq": {
+      "title": "Have Questions? Get answers",
+      "items": {
+        "1": {
+          "question": "How do I create my own travel route?",
+          "answer": "Go to the Trip Planner page, choose the destinations you want to visit, and arrange them in your preferred order. You can then fill in your travel details and save your route."
+        },
+        "2": {
+          "question": "Can I choose multiple destinations?",
+          "answer": "Yes! You can add several tourist attractions to your route. All selected destinations will appear in the My Route section."
+        },
+        "3": {
+          "question": "Does TripMate support multiple languages?",
+          "answer": "TripMate is designed to support Kazakh, Russian, and English, making travel planning more convenient for different users."
+        },
+        "4": {
+          "question": "Can I see my destinations on a map?",
+          "answer": "Yes. The Route Map section displays your selected destinations on an interactive map of Kazakhstan. You can view markers and the order of your stops."
+        },
+        "5": {
+          "question": "How can I save my travel plan?",
+          "answer": "Complete the Journey Form and click Save. Your trip information will be saved in your browser. You can also click Export to download your route as a JSON file."
+        },
+        "6": {
+          "question": "Can I use TripMate on my phone?",
+          "answer": "Yes! TripMate has a responsive design that adapts to desktop computers, tablets, and smartphones."
+        }
+      }
+    }
+  },
+  "categories": {
+    "Nature": "Nature",
+    "Culture": "Culture",
+    "Adventures": "Adventures",
+    "Cities": "Cities"
+  },
+  "cards": {
+    "addToRoute": "Add to route",
+    "addedToRoute": "Added to route",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites"
+  },
+  "places": {
+    "1": {
+      "name": "Charyn Canyon",
+      "location": "Almaty Region, Kazakhstan",
+      "description": "Discover the spectacular red cliffs and breathtaking landscapes of Charyn Canyon."
+    },
+    "2": {
+      "name": "Kolsay Lakes",
+      "location": "Almaty Region, Kazakhstan",
+      "description": "Explore the beautiful mountain lakes surrounded by forests and breathtaking nature."
+    },
+    "3": {
+      "name": "Turkistan",
+      "location": "Turkistan Region, Kazakhstan",
+      "description": "Discover the rich history, architecture and cultural heritage of Turkistan."
+    },
+    "4": {
+      "name": "Bozjyra",
+      "location": "Mangystau Region, Kazakhstan",
+      "description": "Explore the spectacular white cliffs and unique desert landscapes of Bozjyra."
+    },
+    "5": {
+      "name": "Kok-Tobe",
+      "location": "Almaty, Kazakhstan",
+      "description": "Enjoy panoramic views of Almaty from the famous Kok-Tobe hill."
+    },
+    "6": {
+      "name": "Kaindy",
+      "location": "Almaty Region, Kazakhstan",
+      "description": "Visit the mysterious mountain lake famous for its submerged trees."
+    }
+  },
+  "assistant": {
+    "cta": "Ask AI",
+    "title": "AI trip assistant",
+    "description": "Tell TripMate about your trip and get a day-by-day plan from the Kazakhstan catalog.",
+    "label": "Your travel plans",
+    "example": "Plan a two-day nature trip from Almaty with easy walks.",
+    "useExample": "Use example",
+    "generate": "Build my itinerary",
+    "loading": "Building your itinerary…",
+    "day": "Day {{number}}",
+    "add": "Add to my route",
+    "added": "Added to my route",
+    "errors": {
+      "unconfigured": "The AI assistant needs a server API key.",
+      "busy": "The assistant is busy. Try again in a minute.",
+      "unavailable": "Could not generate a plan. Try again.",
+      "storage": "Could not save the route in this browser."
+    }
+  },
+  "support": {
+    "cta": "Support TripMate"
+  }
+}

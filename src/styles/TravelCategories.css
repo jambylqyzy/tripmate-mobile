@@ -1,0 +1,136 @@
+
+.travel-categories {
+  width: 100%;
+  background: #ffffff;
+  padding: 105px 0 125px;
+}
+
+.travel-categories-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 65px;
+}
+
+.travel-categories-title {
+  margin: 0;
+  text-align: center;
+
+  color: #151b2b;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+
+.travel-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+
+  margin-top: 112px;
+}
+
+.travel-category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+
+  width: 100%;
+  padding: 0 8px;
+
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #151b2b;
+
+  transition: transform 0.25s ease;
+}
+
+.travel-category-icon {
+  color: #234d38;
+  flex-shrink: 0;
+  transition: color 0.25s ease;
+}
+
+.travel-category-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.travel-category-item:hover {
+  transform: translateY(-7px);
+}
+
+.travel-category-item:hover .travel-category-icon {
+  color: #234d38;
+}
+
+.travel-category-item:focus-visible {
+  outline: 2px solid #d76845;
+  outline-offset: 12px;
+  border-radius: 8px;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .travel-categories-container {
+    padding: 0 30px;
+  }
+
+  .travel-categories-grid {
+    gap: 20px;
+  }
+
+  .travel-category-name {
+    font-size: 17px;
+    white-space: normal;
+  }
+
+  .travel-category-icon {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .travel-categories {
+    padding: 75px 0 85px;
+  }
+
+  .travel-categories-container {
+    padding: 0 20px;
+  }
+
+  .travel-categories-title {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  .travel-categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 50px;
+    margin-top: 65px;
+  }
+
+  .travel-category-item {
+    gap: 20px;
+  }
+
+  .travel-category-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  .travel-category-name {
+    font-size: 16px;
+  }
+}

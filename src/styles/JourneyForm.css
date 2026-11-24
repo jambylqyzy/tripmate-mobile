@@ -1,0 +1,206 @@
+
+/* MAIN SECTION */
+
+.journey-form-section {
+  width: 100%;
+  background: #183c32;
+  padding: 85px 20px;
+}
+
+.journey-form-container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.journey-form-panel {
+  padding: 55px 70px 60px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+/* HEADING */
+
+.journey-form-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.journey-form-heading h2 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.journey-form-heading p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* FORM */
+
+.journey-form {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.journey-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 23px;
+}
+
+.journey-form-group label {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.journey-form-group input,
+.journey-form-group select {
+  width: 100%;
+  height: 52px;
+  padding: 0 16px;
+
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 0;
+
+  color: #ffffff;
+  font-size: 14px;
+  font-family: inherit;
+
+  outline: none;
+  box-sizing: border-box;
+}
+
+.journey-form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.journey-form-group input:focus,
+.journey-form-group select:focus {
+  border-color: #ffffff;
+}
+
+.journey-form-group select option {
+  background: #ffffff;
+  color: #183c32;
+}
+
+/* DATE INPUTS */
+
+.journey-form-dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.journey-form-group input[type="date"] {
+  color-scheme: dark;
+}
+
+/* MESSAGES */
+
+.journey-form-error {
+  color: #ffb4a2;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.journey-form-success {
+  color: #b9f2c8;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+/* BUTTONS */
+
+.journey-form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 35px;
+}
+
+.journey-form-btn {
+  min-width: 150px;
+  height: 48px;
+  padding: 0 25px;
+
+  background: #ffffff;
+  color: #183c32;
+  border: 1px solid #ffffff;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.journey-form-btn:hover {
+  background: #e8eee9;
+}
+
+/* CLEAR BUTTON */
+
+.journey-form-clear {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.journey-form-clear:hover {
+  background: #ffffff;
+  color: #183c32;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .journey-form-panel {
+    padding: 45px 35px;
+  }
+
+  .journey-form-heading h2 {
+    font-size: 32px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .journey-form-section {
+    padding: 55px 15px;
+  }
+
+  .journey-form-panel {
+    padding: 35px 20px;
+  }
+
+  .journey-form-heading h2 {
+    font-size: 28px;
+  }
+
+  .journey-form-heading p {
+    font-size: 13px;
+  }
+
+  .journey-form-dates {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-form-buttons {
+    flex-direction: column;
+  }
+
+  .journey-form-btn {
+    width: 100%;
+  }
+}

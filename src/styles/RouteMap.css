@@ -1,0 +1,222 @@
+
+.route-map-section {
+  width: 100%;
+  background: #f4f5f7;
+  padding: 75px 0 100px;
+}
+
+.route-map-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
+
+.route-map-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.route-map-heading h2 {
+  color: #172033;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.route-map-heading p {
+  color: #667085;
+  font-size: 15px;
+}
+
+.route-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(260px, 1fr);
+  gap: 25px;
+  align-items: stretch;
+}
+
+/* Карта */
+
+.route-map-wrapper {
+  height: 470px;
+  min-width: 0;
+  background: #e4e9e6;
+  border: 1px solid #dce3df;
+  overflow: hidden;
+}
+
+.route-map-leaflet {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Нумерованные маркеры */
+
+.tripmate-map-marker-wrapper {
+  background: transparent;
+  border: none;
+}
+
+.tripmate-map-marker {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #d76745;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Popup */
+
+.route-map-popup strong {
+  color: #172033;
+  font-size: 14px;
+}
+
+.route-map-popup p {
+  color: #667085;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Правая панель */
+
+.route-map-sidebar {
+  background: #ffffff;
+  border: 1px solid #e2e7e4;
+  padding: 28px 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  max-height: 470px;
+  overflow-y: auto;
+}
+
+.route-map-sidebar h3 {
+  color: #172033;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.route-map-count {
+  color: #667085;
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+
+.route-map-stops {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.route-map-stop {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.route-map-stop-number {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #183c32;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.route-map-stop h4 {
+  color: #172033;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.route-map-stop p {
+  color: #667085;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.route-map-empty p {
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.route-map-note {
+  margin-top: auto;
+  padding-top: 25px;
+
+  color: #7b8580;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .route-map-container {
+    padding: 0 25px;
+  }
+
+  .route-map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .route-map-wrapper {
+    height: 430px;
+  }
+
+  .route-map-sidebar {
+    max-height: none;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .route-map-section {
+    padding: 55px 0 70px;
+  }
+
+  .route-map-container {
+    padding: 0 18px;
+  }
+
+  .route-map-heading h2 {
+    font-size: 30px;
+  }
+
+  .route-map-heading p {
+    font-size: 13px;
+  }
+
+  .route-map-wrapper {
+    height: 350px;
+  }
+
+  .route-map-sidebar {
+    padding: 22px 18px;
+  }
+}

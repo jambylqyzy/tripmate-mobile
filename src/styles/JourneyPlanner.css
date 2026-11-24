@@ -1,0 +1,252 @@
+
+.journey-section {
+  position: relative;
+  width: 100%;
+  min-height: 760px;
+
+  background-image: url("/images/kolsay.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.journey-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+
+.journey-container {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 145px;
+}
+
+.journey-panel {
+  width: 100%;
+  max-width: 555px;
+
+  padding: 50px 45px 55px;
+
+  background: rgba(28, 40, 30, 0.48);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+
+  color: #ffffff;
+}
+
+.journey-panel h2 {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -1px;
+
+  margin-bottom: 12px;
+}
+
+.journey-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+
+  margin-bottom: 24px;
+}
+
+.journey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.journey-field {
+  width: 100%;
+  min-height: 51px;
+
+  display: flex;
+  align-items: center;
+  gap: 13px;
+
+  padding: 0 20px;
+
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.journey-field svg {
+  flex-shrink: 0;
+}
+
+.journey-field select {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  padding: 15px 0;
+
+  border: none;
+  outline: none;
+  background: transparent;
+
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.journey-field select option {
+  background: #ffffff;
+  color: #172e2b;
+}
+
+.journey-date-toggle {
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.journey-date-toggle span {
+  flex: 1;
+}
+
+.journey-date-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 14px;
+  background: rgba(18, 28, 22, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.journey-date-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-size: 12px;
+  color: white;
+}
+
+.journey-date-fields input {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 8px;
+
+  background: white;
+  border: none;
+  border-radius: 2px;
+
+  color: #172e2b;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.journey-error {
+  color: #ffe3d9;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.journey-submit {
+  width: 100%;
+  min-height: 52px;
+
+  background: #ffffff;
+  color: #111111;
+
+  border: none;
+  border-radius: 0;
+
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.journey-submit:hover {
+  background: #e8f1e9;
+}
+
+.journey-field:focus-within {
+  border-color: white;
+}
+
+.journey-date-toggle:focus-visible,
+.journey-submit:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .journey-section {
+    min-height: 680px;
+  }
+
+  .journey-container {
+    padding: 70px 40px;
+  }
+
+  .journey-panel {
+    max-width: 530px;
+    padding: 40px 35px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .journey-section {
+    min-height: 650px;
+    background-position: center;
+  }
+
+  .journey-container {
+    padding: 65px 20px;
+  }
+
+  .journey-panel {
+    max-width: 100%;
+    padding: 32px 22px;
+  }
+
+  .journey-panel h2 {
+    font-size: 31px;
+  }
+
+  .journey-description {
+    font-size: 13px;
+  }
+
+  .journey-field {
+    padding: 0 14px;
+  }
+
+  .journey-field select {
+    font-size: 13px;
+  }
+
+  .journey-submit {
+    font-size: 16px;
+  }
+
+  .journey-date-fields {
+    grid-template-columns: 1fr;
+  }
+}
